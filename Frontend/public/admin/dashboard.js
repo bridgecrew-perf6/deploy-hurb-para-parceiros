@@ -31,7 +31,7 @@ $(document).ready(function() {
         document.querySelector("#loading").style.visibility = "visible";
 
         var settings = {
-            "url": "http://localhost/api/v1/user/is-session-token-still-valid",
+            "url": "https://hurb-para-parceiros.herokuapp.com/api/v1/user/is-session-token-still-valid",
             "method": "GET",
             "timeout": 0,
             "headers": {

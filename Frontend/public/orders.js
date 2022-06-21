@@ -3,7 +3,7 @@ $(document).ready(function() {
     document.querySelector("#loading").style.visibility = "visible";
 
     var settings = {
-        "url": `http://localhost/api/v1/organization/${sessionStorage.getItem("organization-id")}/orders`,
+        "url": `https://hurb-para-parceiros.herokuapp.com/api/v1/organization/${sessionStorage.getItem("organization-id")}/orders`,
         "method": "GET",
         "timeout": 0,
         "headers": {

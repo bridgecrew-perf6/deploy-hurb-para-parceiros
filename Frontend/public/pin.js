@@ -58,7 +58,7 @@ function getAuthenticated() {
     })
 
     var settings = {
-        "url": "http://localhost/api/v1/user/signin",
+        "url": "https://hurb-para-parceiros.herokuapp.com/api/v1/user/signin",
         "method": "POST",
         "timeout": 0,
         "data": {
@@ -99,7 +99,7 @@ function sendPin() {
     document.querySelector("#loading").style.visibility = "visible";
 
     var settings = {
-        "url": "http://localhost/api/v1/user/requestpincode",
+        "url": "https://hurb-para-parceiros.herokuapp.com/api/v1/user/requestpincode",
         "method": "POST",
         "timeout": 0,
         "data": {

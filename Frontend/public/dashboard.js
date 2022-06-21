@@ -80,7 +80,7 @@ $(document).ready(function() {
         document.querySelector("#loading").style.visibility = "visible";
 
         var settings = {
-            "url": "http://localhost/api/v1/user/is-session-token-still-valid",
+            "url": "https://hurb-para-parceiros.herokuapp.com/api/v1/user/is-session-token-still-valid",
             "method": "GET",
             "timeout": 0,
             "headers": {
@@ -115,7 +115,7 @@ $(document).ready(function() {
     document.querySelector("#organization-name").textContent = sessionStorage.getItem("organization-name");
 
     var settings = {
-        "url": `http://localhost/api/v1/organization/${sessionStorage.getItem("organization-id")}/avaiable-reservations`,
+        "url": `https://hurb-para-parceiros.herokuapp.com/api/v1/organization/${sessionStorage.getItem("organization-id")}/avaiable-reservations`,
         "method": "GET",
         "timeout": 0,
         "headers": {

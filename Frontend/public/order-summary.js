@@ -6,7 +6,7 @@ $(document).ready(function() {
     const targetOrderId = urlParams.get('id');
 
     var settings = {
-        "url": `http://localhost/api/v1/order/${targetOrderId}`,
+        "url": `https://hurb-para-parceiros.herokuapp.com/api/v1/order/${targetOrderId}`,
         "method": "GET",
         "timeout": 0,
         "headers": {
