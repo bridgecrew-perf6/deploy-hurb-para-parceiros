@@ -15,13 +15,5 @@
     "nodemailer": "^6.7.5",
     "sqlite-async": "^1.1.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eliasbiondo/deploy-hurb-para-parceiros.git"
-  },
-  "bugs": {
-    "url": "https://github.com/eliasbiondo/deploy-hurb-para-parceiros/issues"
-  },
-  "homepage": "https://github.com/eliasbiondo/deploy-hurb-para-parceiros#readme",
   "description": ""
 }
