@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var settings = {
-        "url": "http://localhost:4000/api/v1/user/",
+        "url": "http://localhost/api/v1/user/",
         "method": "GET",
         "timeout": 0,
         "headers": {

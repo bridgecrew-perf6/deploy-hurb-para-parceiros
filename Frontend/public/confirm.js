@@ -69,7 +69,7 @@ document.querySelector(".primary-button").addEventListener("click", function() {
     const merged = {...data, ...orderReceiveMethodInfo};
 
     var settings = {
-        "url": "http://localhost:4000/api/v1/order/create",
+        "url": "http://localhost/api/v1/order/create",
         "method": "POST",
         "timeout": 0,
         "headers": {

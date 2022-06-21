@@ -31,7 +31,7 @@ $(document).ready(function() {
         document.querySelector("#loading").style.visibility = "visible";
 
         var settings = {
-            "url": "http://localhost:4000/api/v1/user/is-session-token-still-valid",
+            "url": "http://localhost/api/v1/user/is-session-token-still-valid",
             "method": "GET",
             "timeout": 0,
             "headers": {
@@ -68,7 +68,7 @@ $(document).ready(function() {
     document.querySelector("#loading").style.visibility = "visible";
 
     var settings = {
-        "url": "http://localhost:4000/api/v1/organization/",
+        "url": "http://localhost/api/v1/organization/",
         "method": "GET",
         "timeout": 0,
         "headers": {

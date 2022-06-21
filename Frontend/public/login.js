@@ -27,7 +27,7 @@ submitButton.addEventListener("click", function() {
     document.querySelector("#loading").style.visibility = "visible";
 
     var settings = {
-        "url": "http://localhost:4000/api/v1/user/requestpincode",
+        "url": "http://localhost/api/v1/user/requestpincode",
         "method": "POST",
         "timeout": 0,
         "data": {

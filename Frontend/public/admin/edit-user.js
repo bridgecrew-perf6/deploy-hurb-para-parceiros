@@ -45,7 +45,7 @@ elements.inputs.forEach(input => {
 $(document).ready(function() {
 
     var settings = {
-        "url": `http://localhost:4000/api/v1/user/u/${sessionStorage.getItem("target-edit-id")}`,
+        "url": `http://localhost/api/v1/user/u/${sessionStorage.getItem("target-edit-id")}`,
         "method": "GET",
         "timeout": 0,
         "headers": {
@@ -60,7 +60,7 @@ $(document).ready(function() {
          document.querySelector("#email").value = user.email;
 
          var settings = {
-            "url": "http://localhost:4000/api/v1/role/",
+            "url": "http://localhost/api/v1/role/",
             "method": "GET",
             "timeout": 0,
             "headers": {
@@ -90,7 +90,7 @@ $(document).ready(function() {
 
           document.querySelector(".primary-button").addEventListener("click", function() {
             var settings = {
-                "url": `http://localhost:4000/api/v1/user/u/${user.id}`,
+                "url": `http://localhost/api/v1/user/u/${user.id}`,
                 "method": "PUT",
                 "timeout": 0,
                 "headers": {
@@ -110,7 +110,7 @@ $(document).ready(function() {
           document.querySelector("#delete-btn").addEventListener("click", function() {
             
             var settings = {
-                "url": `http://localhost:4000/api/v1/user/u/${user.id}`,
+                "url": `http://localhost/api/v1/user/u/${user.id}`,
                 "method": "DELETE",
                 "timeout": 0,
                 "headers": {

@@ -7,7 +7,7 @@ $(document).ready(function() {
     const organizationId = sessionStorage.getItem("organization-id");
 
     var settings = {
-        "url": `http://localhost:4000/api/v1/organization/${organizationId}/bank-account`,
+        "url": `http://localhost/api/v1/organization/${organizationId}/bank-account`,
         "method": "GET",
         "timeout": 0,
         "headers": {

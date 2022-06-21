@@ -80,7 +80,7 @@ $(document).ready(function() {
         document.querySelector("#loading").style.visibility = "visible";
 
         var settings = {
-            "url": "http://localhost:4000/api/v1/user/is-session-token-still-valid",
+            "url": "http://localhost/api/v1/user/is-session-token-still-valid",
             "method": "GET",
             "timeout": 0,
             "headers": {
@@ -109,7 +109,7 @@ let organizations = [];
 
 $(document).ready(function() {
     var settings = {
-        "url": "http://localhost:4000/api/v1/organization/",
+        "url": "http://localhost/api/v1/organization/",
         "method": "GET",
         "timeout": 0,
         "headers": {
@@ -143,7 +143,7 @@ document.querySelector(".primary-button").addEventListener("click", function() {
     document.querySelector("#loading").style.visibility = "visible";
 
     var settings = {
-        "url": "http://localhost:4000/api/v1/reservation/create",
+        "url": "http://localhost/api/v1/reservation/create",
         "method": "POST",
         "timeout": 0,
         "headers": {

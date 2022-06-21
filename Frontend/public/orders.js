@@ -3,7 +3,7 @@ $(document).ready(function() {
     document.querySelector("#loading").style.visibility = "visible";
 
     var settings = {
-        "url": `http://localhost:4000/api/v1/organization/${sessionStorage.getItem("organization-id")}/orders`,
+        "url": `http://localhost/api/v1/organization/${sessionStorage.getItem("organization-id")}/orders`,
         "method": "GET",
         "timeout": 0,
         "headers": {

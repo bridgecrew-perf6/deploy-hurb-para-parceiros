@@ -72,7 +72,7 @@ $(document).ready(function() {
         document.querySelector("#loading").style.visibility = "visible";
 
         var settings = {
-            "url": "http://localhost:4000/api/v1/user/is-session-token-still-valid",
+            "url": "http://localhost/api/v1/user/is-session-token-still-valid",
             "method": "GET",
             "timeout": 0,
             "headers": {
@@ -100,7 +100,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     var settings = {
-        "url": `http://localhost:4000/api/v1/organization/${sessionStorage.getItem("organization-id")}/calendar`,
+        "url": `http://localhost/api/v1/organization/${sessionStorage.getItem("organization-id")}/calendar`,
         "method": "GET",
         "timeout": 0,
         "headers": {
