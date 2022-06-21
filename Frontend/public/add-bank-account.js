@@ -17,7 +17,7 @@ const invalidOrExpiredToken = async () => {
 
     await delay(3);
 
-    window.location.href = "http://localhost/login.html";
+    window.location.href = "https://hurb-para-parceiros.herokuapp.com/login.html";
 
 }
 
@@ -80,7 +80,7 @@ document.querySelector(".primary-button").addEventListener("click", function() {
       
     $.ajax(settings).done(function (response) {
         if(response.success) {
-            window.location.href = "http://localhost/paymentMethods/select-receiving-method.html";
+            window.location.href = "https://hurb-para-parceiros.herokuapp.com/paymentMethods/select-receiving-method.html";
         } else {
             toastr.error(response.error.detail, response.error.title);
         }

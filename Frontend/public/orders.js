@@ -34,7 +34,7 @@ $(document).ready(function() {
         
                         <!-- Get details button -->
                         <div id="get-details-btn">
-                            <a href=${`http://localhost/order-summary.html?id=${order.id}`}>
+                            <a href=${`https://hurb-para-parceiros.herokuapp.com/order-summary.html?id=${order.id}`}>
                                 <img src="./arrow-right-primary-icon.svg" alt="botão azul com uma seta branca apontando para a direita">
                             </a>
                         </div>

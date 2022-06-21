@@ -38,7 +38,7 @@ submitButton.addEventListener("click", function() {
       $.ajax(settings).done(function (response) {
 
         if(response.success) {
-            window.location.href = "http://localhost/pin.html";
+            window.location.href = "https://hurb-para-parceiros.herokuapp.com/pin.html";
         } else {
             document.querySelector("#loading").style.visibility = "hidden";
             toastr.error(response.error.detail,response.error.title);

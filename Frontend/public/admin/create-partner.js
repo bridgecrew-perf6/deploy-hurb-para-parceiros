@@ -73,7 +73,7 @@ const invalidOrExpiredToken = async () => {
 
     await delay(3);
 
-    window.location.href = "http://localhost/login.html";
+    window.location.href = "https://hurb-para-parceiros.herokuapp.com/login.html";
 
 }
 
@@ -138,7 +138,7 @@ $(document).ready(function() {
             document.querySelector("#responsible-user").appendChild(option);
 
             await delay(3);
-            document.location.href = "http://localhost/admin/create-new-user.html";
+            document.location.href = "https://hurb-para-parceiros.herokuapp.com/admin/create-new-user.html";
             
         } else {
             response.success.data.forEach(user => {

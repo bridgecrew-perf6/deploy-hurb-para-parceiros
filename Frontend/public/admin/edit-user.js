@@ -103,7 +103,7 @@ $(document).ready(function() {
             };
               
             $.ajax(settings).done(function (response) {
-                window.location.href = "http://localhost/admin/edit-registered-user.html";
+                window.location.href = "https://hurb-para-parceiros.herokuapp.com/admin/edit-registered-user.html";
             });
           })
 
@@ -119,7 +119,7 @@ $(document).ready(function() {
               };
               
             $.ajax(settings).done(function (response) {
-                window.location.href = "http://localhost/admin/edit-registered-user.html";
+                window.location.href = "https://hurb-para-parceiros.herokuapp.com/admin/edit-registered-user.html";
             });
 
           })

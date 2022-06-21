@@ -3,7 +3,7 @@ $(document).ready(function() {
 	const submitBtn = document.querySelector(".primary-button");
 
 	submitBtn.addEventListener("click", function() {
-        window.location.href = "http://localhost/admin/edit-organization.html";
+        window.location.href = "https://hurb-para-parceiros.herokuapp.com/admin/edit-organization.html";
     })
 
 })

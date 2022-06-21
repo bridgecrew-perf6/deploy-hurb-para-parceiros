@@ -71,7 +71,7 @@ const invalidOrExpiredToken = async () => {
 
     await delay(3);
 
-    window.location.href = "http://localhost/login.html";
+    window.location.href = "https://hurb-para-parceiros.herokuapp.com/login.html";
 
 }
 

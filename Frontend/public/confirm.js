@@ -86,11 +86,11 @@ document.querySelector(".primary-button").addEventListener("click", function() {
 
         if(response.success) {
 
-            window.location.href = "http://localhost/success.html";
+            window.location.href = "https://hurb-para-parceiros.herokuapp.com/success.html";
             
         } else {
 
-            window.location.href = "http://localhost/dashboard.html"
+            window.location.href = "https://hurb-para-parceiros.herokuapp.com/dashboard.html"
 
         }
 

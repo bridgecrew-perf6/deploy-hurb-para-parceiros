@@ -75,9 +75,9 @@ function getAuthenticated() {
             localStorage.setItem("partner", JSON.stringify(response.success.data.partner));
 
             if(response.success.data.role == 'administrador') {
-                window.location.href = "http://localhost/admin/dashboard.html";
+                window.location.href = "https://hurb-para-parceiros.herokuapp.com/admin/dashboard.html";
             } else {
-                window.location.href = "http://localhost/select-organization.html";
+                window.location.href = "https://hurb-para-parceiros.herokuapp.com/select-organization.html";
             }
         } else {
             document.querySelector("#loading").style.visibility = "hidden";

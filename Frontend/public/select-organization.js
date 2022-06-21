@@ -17,7 +17,7 @@ const invalidOrExpiredToken = async () => {
 
     await delay(3);
 
-    window.location.href = "http://localhost/login.html";
+    window.location.href = "https://hurb-para-parceiros.herokuapp.com/login.html";
 
 }
 
@@ -60,7 +60,7 @@ function selectOrganization(e) {
     sessionStorage.setItem("organization-telephone", e.target.getAttribute("telefone"));
     sessionStorage.setItem("organization-name",e.target.value);
     sessionStorage.setItem("organization-id", e.target.id);
-    window.location.href = "http://localhost/dashboard.html";
+    window.location.href = "https://hurb-para-parceiros.herokuapp.com/dashboard.html";
 }
 
 $(document).ready(function() {

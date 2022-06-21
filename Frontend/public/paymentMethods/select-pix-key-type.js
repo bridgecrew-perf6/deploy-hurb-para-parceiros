@@ -60,6 +60,6 @@ document.querySelector(".primary-button").addEventListener("click", function() {
     // Setting up the updated payment info.
     localStorage.setItem("order-receive-method", JSON.stringify(paymentInfo));
 
-    window.location.href = "http://localhost/confirm.html";
+    window.location.href = "https://hurb-para-parceiros.herokuapp.com/confirm.html";
     
 })
