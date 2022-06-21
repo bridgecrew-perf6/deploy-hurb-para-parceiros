@@ -1,7 +1,6 @@
 {
   "name": "hurb",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -19,5 +18,14 @@
   "devDependencies": {
     "dotenv": "^16.0.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasbiondo/deploy-hurb-para-parceiros.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliasbiondo/deploy-hurb-para-parceiros/issues"
+  },
+  "homepage": "https://github.com/eliasbiondo/deploy-hurb-para-parceiros#readme",
+  "description": ""
 }
