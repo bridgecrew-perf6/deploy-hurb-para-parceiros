@@ -1,11 +1,7 @@
 // Importing all required libraries.
 const express = require("express");
 const colors = require("colors");
-const env = require("dotenv");
 var cors = require('cors');
-
-// Setting up the environment variables.
-env.config();
 
 // Instacing the app with express.
 const app = express();
