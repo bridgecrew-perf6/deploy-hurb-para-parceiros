@@ -1,0 +1,74 @@
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.form-field label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.form-field > input {
+    width: 100%;
+    height: 5.4rem;
+    border: 0.1rem dashed #000;
+    border-radius: 1rem;
+    padding: 0rem 2.2rem 0rem 2.2rem;
+}
+
+.form-field label:first-child {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.form-field > label:last-of-type {
+    margin-bottom: 1.5rem;
+}
+
+.radio-btn-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.radio-btn-row > label {
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+.radio-btn-row > div {
+    padding: 0.5rem;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.radio-btn-row {
+    margin-bottom: 1rem;
+}
+
+.warning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+.warning img {
+    width: 20%;
+}
+
+.warning span {
+    width: 70%;
+    text-align: center;
+}
+
+form > input[type="submit"]:disabled {
+    cursor: not-allowed;
+    background-color: #CACACA;
+}

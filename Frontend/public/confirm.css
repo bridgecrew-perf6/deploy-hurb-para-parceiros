@@ -1,0 +1,69 @@
+.summary-anticipation-header {
+    margin-bottom: 2.5rem;
+}
+
+.summary-header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-summary {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.summary-main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.currency-symbol {
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+
+.summary-money {
+    margin-bottom: 3.5rem;
+}
+
+.anticipation-value {
+    display: flex;
+    flex-direction: row;
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+.cents {
+    font-size: 4.2rem;
+}
+
+#confirm-anticipation-request-button:hover {
+    cursor: pointer;
+}
+
+.anticipation-data {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+
+.condition {
+    display: flex;
+    justify-content: space-between;
+}
+
+.condition span {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.condition.strong span {
+    font-weight: 600;
+}

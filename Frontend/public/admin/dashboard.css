@@ -1,0 +1,56 @@
+.dashboard-header .logo {
+    margin-bottom: 3.9rem;
+}
+
+.dashboard-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-main {
+    margin-top: 3.9rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+.dashboard-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+#button-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.dashboard-button-disabled{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: not-allowed;
+    margin-bottom: 2rem;
+}
+
+#disable{
+    cursor: not-allowed;
+}
+
+a:-webkit-any-link {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
